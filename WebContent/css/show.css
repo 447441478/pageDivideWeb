@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.pageCode{
+	display: inline-block;
+	width: 30px;
+}
+.showTable{
+	width:530px;
+	height:300px;
+	margin:0px auto; /*居中*/
+	border-collapse: collapse;
+}
+.showTable tr{
+	display:block;
+	height:30px;
+}
+.showTable tr:first-child{
+	font-weight: bold;
+}
+
+.showTable td{
+	width: 200px;
+	height:30px;
+	text-align: center;
+	border: 1px solid #00f;
+}
+.showTable tr td:first-child{
+	width: 100px;
+}
+.page{
+	text-align: center;
+}
